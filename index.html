@@ -19,21 +19,21 @@
     <title>WebStudio | Студия</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container">
         <nav class="navigation">
           <a class="logo link" href="./"><span class="accent">Web</span>Studio</a>
-          <ul class="list">
-            <li><a class="link current" href="./index.html">Студия</a></li>
-            <li><a class="link" href="./portfolio.html">Портфолио</a></li>
-            <li><a class="link" href="">Контакты</a></li>
+          <ul class="list menu">
+            <li class="menu-item"><a class="link current" href="./index.html">Студия</a></li>
+            <li class="menu-item"><a class="link" href="./portfolio.html">Портфолио</a></li>
+            <li class="menu-item"><a class="link" href="">Контакты</a></li>
           </ul>
         </nav>
-        <ul class="list">
-          <li>
+        <ul class="list contacts">
+          <li class="contacts-item">
             <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li>
+          <li class="contacts-item">
             <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
@@ -51,26 +51,26 @@
       <section class="qualities section">
         <div class="container">
           <h2 class="title section-title visually-hidden">Особенности</h2>
-          <ul class="qualities-list list">
-            <li class="qualities-list-item">
+          <ul class="list flex-grid qualities-list">
+            <li class="flex-grid-item qualities-list-item">
               <h3 class="qualities-list-item-title title">Внимание к деталям</h3>
               <p class="qualities-list-item-text">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
-            <li class="qualities-list-item">
+            <li class="flex-grid-item qualities-list-item">
               <h3 class="qualities-list-item-title title">Пунктуальность</h3>
               <p class="qualities-list-item-text">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
-            <li class="qualities-list-item">
+            <li class="flex-grid-item qualities-list-item">
               <h3 class="qualities-list-item-title title">Планирование</h3>
               <p class="qualities-list-item-text">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
-            <li class="qualities-list-item">
+            <li class="flex-grid-item qualities-list-item">
               <h3 class="qualities-list-item-title title">Современные технологии</h3>
               <p class="qualities-list-item-text">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
@@ -80,13 +80,13 @@
         </div>
       </section>
       <!--What we do-->
-      <section>
+      <section class="section">
         <div class="container">
           <h2 class="title section-title">Чем мы занимаемся</h2>
-          <ul class="list">
-            <li><img src="./images/box1.jpg" alt="клавиатура" width="370" /></li>
-            <li><img src="./images/box2.jpg" alt="телефон" width="370" /></li>
-            <li><img src="./images/box3.jpg" alt="планшет" width="370" /></li>
+          <ul class="list flex-grid activities-list">
+            <li class="flex-grid-item activities-list-item"><img src="./images/box1.jpg" alt="клавиатура" width="370" /></li>
+            <li class="flex-grid-item activities-list-item"><img src="./images/box2.jpg" alt="телефон" width="370" /></li>
+            <li class="flex-grid-item activities-list-item"><img src="./images/box3.jpg" alt="планшет" width="370" /></li>
           </ul>
         </div>
       </section>
@@ -94,24 +94,24 @@
       <section class="team section">
         <div class="container">
           <h2 class="title section-title">Наша команда</h2>
-          <ul class="list">
-            <li>
-              <img src="./images/staff/igor-demianenko.jpg" alt="Игорь Демьяненко" width="270" />
+          <ul class="list flex-grid team-list">
+            <li class="flex-grid-item team-list-item">
+              <img class="person-portrait" src="./images/staff/igor-demianenko.jpg" alt="Игорь Демьяненко" width="270" />
               <h3 class="person-name title">Игорь Демьяненко</h3>
               <p>Product Designer</p>
             </li>
-            <li>
-              <img src="./images/staff/olga-repina.jpg" alt="Ольга Репина" width="270" />
+            <li class="flex-grid-item team-list-item">
+              <img class="person-portrait" src="./images/staff/olga-repina.jpg" alt="Ольга Репина" width="270" />
               <h3 class="person-name title">Ольга Репина</h3>
               <p>Frontend Developer</p>
             </li>
-            <li>
-              <img src="./images/staff/nikolai-tarasov.jpg" alt="Николай Тарасов" width="270" />
+            <li class="flex-grid-item team-list-item">
+              <img class="person-portrait" src="./images/staff/nikolai-tarasov.jpg" alt="Николай Тарасов" width="270" />
               <h3 class="person-name title">Николай Тарасов</h3>
               <p>Marketing</p>
             </li>
-            <li>
-              <img src="./images/staff/mihail-ermakov.jpg" alt="Михаил Ермаков" width="270" />
+            <li class="flex-grid-item team-list-item">
+              <img class="person-portrait" src="./images/staff/mihail-ermakov.jpg" alt="Михаил Ермаков" width="270" />
               <h3 class="person-name title">Михаил Ермаков</h3>
               <p>UI Designer</p>
             </li>
@@ -124,9 +124,13 @@
         <a class="logo link" href="./"><span class="accent">Web</span>Studio</a>
         <address class="address">
           <p class="address-item">г. Киев, пр-т Леси Украинки, 26</p>
-          <ul class="list">
-            <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <ul class="list contacts">
+            <li class="contacts-item">
+              <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="contacts-item">
+              <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
           </ul>
         </address>
       </div>
