@@ -154,8 +154,8 @@ img {
 }
 
 .section {
-  padding-top: 95px;
-  padding-bottom: 95px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .section-title {
@@ -197,8 +197,6 @@ img {
 }
 
 .hero {
-  padding-top: 250px;
-  padding-bottom: 250px;
   margin-top: 20px;
   text-align: center;
   background-color: var(--background-dark-color);
@@ -226,6 +224,7 @@ img {
 }
 
 .qualities.section {
+  padding-top: 74px;
   padding-bottom: 0;
 }
 
@@ -283,11 +282,14 @@ img {
 
 .project-label {
   padding: 20px 24px;
+  border-right: 1px solid var(--portfolio-border-color);
+  border-bottom: 1px solid var(--portfolio-border-color);
+  border-left: 1px solid var(--portfolio-border-color);
 }
 
 .project-item {
   flex-basis: calc((100% - 3 * var(--flex-grid-margin)) / 3);
-  border: 1px solid var(--portfolio-border-color);
+
 }
 
 .project-name {
