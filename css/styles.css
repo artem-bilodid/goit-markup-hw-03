@@ -131,13 +131,13 @@ img {
 .flex-grid {
   display: flex;
   flex-wrap: wrap;
-  margin-right: calc(-1 * var(--flex-grid-margin));
-  margin-bottom: calc(-1 * var(--flex-grid-margin));
+  margin-top: calc(-1 * var(--flex-grid-margin));
+  margin-left: calc(-1 * var(--flex-grid-margin));
 }
 
 .flex-grid-item {
-  margin-right: var(--flex-grid-margin);
-  margin-bottom: var(--flex-grid-margin);
+  margin-top: var(--flex-grid-margin);
+  margin-left: var(--flex-grid-margin);
 }
 
 .header {
@@ -197,6 +197,8 @@ img {
 }
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
   background-color: var(--background-dark-color);
 }
@@ -204,6 +206,7 @@ img {
 .hero .container {
   width: 700px;
 }
+
 .hero-title {
   margin-bottom: 30px;
   font-weight: 900;
@@ -251,14 +254,13 @@ img {
 }
 
 .team-list-item {
-  padding-bottom: 30px;
   flex-basis: calc((100% - 4 * var(--flex-grid-margin)) / 4);
-
   background-color: var(--background-primary-color);
   border-radius: 0px 0px 4px 4px;
 }
-.person-portrait {
-  margin-bottom: 30px;
+.person-label {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .person-name {
   font-weight: 500;
@@ -287,7 +289,6 @@ img {
 
 .project-item {
   flex-basis: calc((100% - 3 * var(--flex-grid-margin)) / 3);
-
 }
 
 .project-name {
